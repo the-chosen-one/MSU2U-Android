@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/mainmenu"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/btn_campusmap"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/custom_ButtonHeight"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/custom_button" /><Button
+        android:id="@+id/btn_directory "
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/btn_campusmap"
+        android:text="Directory"
+        android:textSize="@dimen/button_TextSize" />
+
+        <Button
+            android:id="@+id/btn_events"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/btn_directory "
+            android:text="Events"
+            android:textSize="@dimen/button_TextSize" />
+
+        <Button
+            android:id="@+id/btn_media"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/btn_events"
+            android:text="Media"
+            android:textSize="@dimen/button_TextSize" />
+
+        <Button
+            android:id="@+id/btn_appfeedback"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/btn_media"
+            android:layout_marginTop="17dp"
+            android:text="App Feed Back"
+            android:textSize="@dimen/button_TextSize" />
+
+</RelativeLayout>
