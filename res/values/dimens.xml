@@ -1,0 +1,10 @@
+<resources>
+
+    <dimen name="padding_small">8dp</dimen>
+    <dimen name="padding_medium">8dp</dimen>
+    <dimen name="padding_large">16dp</dimen>
+    <dimen name="custom_TitleTextSize">15pt</dimen>
+    <dimen name="custom_ButtonHeight">60dp</dimen>
+    <dimen name="button_TextSize">10pt</dimen>
+
+</resources>
