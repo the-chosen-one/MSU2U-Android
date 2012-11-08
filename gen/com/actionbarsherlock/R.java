@@ -812,8 +812,8 @@ containing a value of this type.
         public static final int padding_small=0x7f070011;
     }
     public static final class drawable {
-        public static final int Hotpink=0x7f020084;
-        public static final int PowderBlue=0x7f020082;
+        public static final int Hotpink=0x7f020089;
+        public static final int PowderBlue=0x7f020087;
         public static final int abs__ab_bottom_solid_dark_holo=0x7f020000;
         public static final int abs__ab_bottom_solid_inverse_holo=0x7f020001;
         public static final int abs__ab_bottom_solid_light_holo=0x7f020002;
@@ -925,29 +925,34 @@ containing a value of this type.
         public static final int abs__textfield_searchview_holo_light=0x7f02006c;
         public static final int abs__textfield_searchview_right_holo_dark=0x7f02006d;
         public static final int abs__textfield_searchview_right_holo_light=0x7f02006e;
-        public static final int black=0x7f020079;
-        public static final int blue=0x7f02007a;
-        public static final int brown=0x7f020083;
-        public static final int btn_campusmap_normal=0x7f02006f;
-        public static final int btn_campusmap_pressed=0x7f020070;
-        public static final int btn_directory_normal=0x7f020071;
-        public static final int btn_directory_pressed=0x7f020072;
-        public static final int custom_button=0x7f020073;
-        public static final int green=0x7f02007b;
-        public static final int grey=0x7f02007f;
-        public static final int ic_action_search=0x7f020074;
-        public static final int ic_launcher=0x7f020075;
-        public static final int mainmenu=0x7f020076;
-        public static final int orange=0x7f02007c;
-        public static final int pink=0x7f02007d;
-        public static final int red=0x7f020080;
-        public static final int splashscreen=0x7f020077;
-        public static final int violet=0x7f02007e;
-        public static final int white=0x7f020078;
-        public static final int yellow=0x7f020081;
+        public static final int arrow=0x7f02006f;
+        public static final int bigarrow=0x7f020070;
+        public static final int black=0x7f02007e;
+        public static final int blue=0x7f02007f;
+        public static final int brown=0x7f020088;
+        public static final int calender=0x7f020071;
+        public static final int contact=0x7f020072;
+        public static final int facebook=0x7f020073;
+        public static final int gradient_bg=0x7f020074;
+        public static final int gradient_bg_hover=0x7f020075;
+        public static final int green=0x7f020080;
+        public static final int grey=0x7f020084;
+        public static final int ic_action_search=0x7f020076;
+        public static final int ic_launcher=0x7f020077;
+        public static final int image_bg=0x7f020078;
+        public static final int list_selector=0x7f020079;
+        public static final int mainmenu=0x7f02007a;
+        public static final int map=0x7f02007b;
+        public static final int orange=0x7f020081;
+        public static final int pink=0x7f020082;
+        public static final int red=0x7f020085;
+        public static final int splashscreen=0x7f02007c;
+        public static final int violet=0x7f020083;
+        public static final int white=0x7f02007d;
+        public static final int yellow=0x7f020086;
     }
     public static final class id {
-        public static final int RelativeLayout1=0x7f040033;
+        public static final int LinearLayout=0x7f040033;
         public static final int abs__action_bar=0x7f040022;
         public static final int abs__action_bar_container=0x7f040021;
         public static final int abs__action_bar_subtitle=0x7f040011;
@@ -988,20 +993,20 @@ containing a value of this type.
         public static final int abs__title=0x7f04001b;
         public static final int abs__titleDivider=0x7f04001c;
         public static final int abs__up=0x7f04000b;
-        public static final int btn_appfeedback=0x7f040038;
-        public static final int btn_campusmap=0x7f040034;
-        public static final int btn_directory =0x7f040035;
-        public static final int btn_events=0x7f040036;
-        public static final int btn_media=0x7f040037;
         public static final int disableHome=0x7f040009;
         public static final int edit_query=0x7f040027;
         public static final int homeAsUp=0x7f040006;
         public static final int listMode=0x7f040002;
+        public static final int listView=0x7f040034;
+        public static final int list_image=0x7f040036;
         public static final int normal=0x7f040001;
         public static final int showCustom=0x7f040008;
         public static final int showHome=0x7f040005;
         public static final int showTitle=0x7f040007;
+        public static final int subtitle=0x7f040038;
         public static final int tabMode=0x7f040003;
+        public static final int thumbnail=0x7f040035;
+        public static final int title=0x7f040037;
         public static final int useLogo=0x7f040004;
         public static final int wrap_content=0x7f040000;
     }
@@ -1034,8 +1039,9 @@ containing a value of this type.
         public static final int abs__simple_dropdown_hint=0x7f030016;
         public static final int activity_main=0x7f030017;
         public static final int activity_splash=0x7f030018;
-        public static final int sherlock_spinner_dropdown_item=0x7f030019;
-        public static final int sherlock_spinner_item=0x7f03001a;
+        public static final int list_row=0x7f030019;
+        public static final int sherlock_spinner_dropdown_item=0x7f03001a;
+        public static final int sherlock_spinner_item=0x7f03001b;
     }
     public static final class string {
         /**  Content description for the action bar "home" affordance. [CHAR LIMIT=NONE] 
