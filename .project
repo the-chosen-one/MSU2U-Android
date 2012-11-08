@@ -3,6 +3,7 @@
 	<name>MSU2U</name>
 	<comment></comment>
 	<projects>
+		<project>ActionBarSherlock</project>
 	</projects>
 	<buildSpec>
 		<buildCommand>

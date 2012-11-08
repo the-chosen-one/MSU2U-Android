@@ -1,11 +1,12 @@
 package com.android.msu2u;
 
+
 import android.os.Bundle;
 import android.app.Activity;
 import android.content.Intent;
 import android.view.Menu;
 import android.view.MenuItem;
-import android.support.v4.app.NavUtils;
+
 
 public class MainActivity extends Activity {
 
@@ -17,9 +18,9 @@ public class MainActivity extends Activity {
 		
 		Thread splashTimer = new Thread(){
 			public void run(){
-					try{ // Show Splash Screen for 5 secs
+					try{ // Show Splash Screen for 3 secs
 						int splashTimer = 0;
-						while(splashTimer < 5000){
+						while(splashTimer < 3000){
 							sleep(100);
 							splashTimer+=100;
 						}
