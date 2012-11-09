@@ -7,34 +7,25 @@
     android:padding="5dip" >
  
     <!--  ListRow Left sied Thumbnail image -->
-    <LinearLayout android:id="@+id/thumbnail"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:padding="3dip"
-        android:layout_alignParentLeft="true"
-        android:background="@drawable/image_bg"
-        android:layout_marginRight="5dip">
- 
-        <!-- Button/List Icon -->
-        <ImageView
-            android:id="@+id/list_image"
-            android:layout_width="32dip"
-            android:layout_height="32dip"
-            android:src="@drawable/map"/>
- 
-    </LinearLayout>
  
     <!-- Title Of Button/List Item-->
+
+    <ImageView
+        android:id="@+id/list_image"
+        android:layout_width="48dip"
+        android:layout_height="48dip"
+        android:src="@drawable/map" />
 
     <TextView
         android:id="@+id/title"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignTop="@+id/thumbnail"
-        android:layout_toRightOf="@+id/thumbnail"
+        android:layout_alignTop="@+id/list_image"
+        android:layout_toRightOf="@+id/list_image"
         android:textColor="#040404"
         android:textSize="15dip"
         android:textStyle="bold"
+        android:paddingLeft="5dip"
         android:typeface="sans" />
  
     <!-- Sub Title --> 
@@ -44,7 +35,8 @@
          android:layout_width="fill_parent"
          android:layout_height="wrap_content"
          android:layout_below="@+id/title"
-         android:layout_toRightOf="@+id/thumbnail"
+         android:layout_toRightOf="@+id/list_image"
+         android:paddingLeft="5dip"
          android:textColor="#343434"
          android:textSize="10dip" />
      

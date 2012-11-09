@@ -8,6 +8,9 @@
 package com.android.msu2u;
 
 public final class R {
+    public static final class array {
+        public static final int Menu_Items=0x7f0b0000;
+    }
     public static final class attr {
         /**  Custom divider drawable to use for elements in the action bar. 
          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
@@ -952,7 +955,8 @@ containing a value of this type.
         public static final int yellow=0x7f020086;
     }
     public static final class id {
-        public static final int LinearLayout=0x7f040033;
+        public static final int LinearLayout=0x7f040035;
+        public static final int RelativeLayout1=0x7f040033;
         public static final int abs__action_bar=0x7f040022;
         public static final int abs__action_bar_container=0x7f040021;
         public static final int abs__action_bar_subtitle=0x7f040011;
@@ -997,16 +1001,16 @@ containing a value of this type.
         public static final int edit_query=0x7f040027;
         public static final int homeAsUp=0x7f040006;
         public static final int listMode=0x7f040002;
-        public static final int listView=0x7f040034;
-        public static final int list_image=0x7f040036;
+        public static final int listView=0x7f040036;
+        public static final int list_image=0x7f040037;
         public static final int normal=0x7f040001;
         public static final int showCustom=0x7f040008;
         public static final int showHome=0x7f040005;
         public static final int showTitle=0x7f040007;
-        public static final int subtitle=0x7f040038;
+        public static final int subtitle=0x7f040039;
         public static final int tabMode=0x7f040003;
-        public static final int thumbnail=0x7f040035;
-        public static final int title=0x7f040037;
+        public static final int textView1=0x7f040034;
+        public static final int title=0x7f040038;
         public static final int useLogo=0x7f040004;
         public static final int wrap_content=0x7f040000;
     }
@@ -1037,11 +1041,12 @@ containing a value of this type.
         public static final int abs__search_dropdown_item_icons_2line=0x7f030014;
         public static final int abs__search_view=0x7f030015;
         public static final int abs__simple_dropdown_hint=0x7f030016;
-        public static final int activity_main=0x7f030017;
-        public static final int activity_splash=0x7f030018;
-        public static final int list_row=0x7f030019;
-        public static final int sherlock_spinner_dropdown_item=0x7f03001a;
-        public static final int sherlock_spinner_item=0x7f03001b;
+        public static final int activity_campusmap=0x7f030017;
+        public static final int activity_main=0x7f030018;
+        public static final int activity_splash=0x7f030019;
+        public static final int list_row=0x7f03001a;
+        public static final int sherlock_spinner_dropdown_item=0x7f03001b;
+        public static final int sherlock_spinner_item=0x7f03001c;
     }
     public static final class string {
         /**  Content description for the action bar "home" affordance. [CHAR LIMIT=NONE] 

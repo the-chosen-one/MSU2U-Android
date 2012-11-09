@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="Menu_Items">
+        <item>R.drawable.map, Campus Map, Find your way around campus</item>
+        <item>R.drawable.contact, Directory, Contact Faculty and Staff</item>
+        <item>R.drawable.calender, Events, View and Add MSU events to your calender</item>
+        <item>R.drawable.facebook, Media, News social media and images</item>
+    </string-array>
+</resources>
