@@ -1,11 +1,17 @@
-package com.android.msu2u;
+/***************************************************
+ **				MSU2U Copyright (c) 2012		  **	
+ **		Property of Midwerstern State University  **
+ **				Computer Science Dept. 			  **
+ ** ************************************************/ 
 
+// This class is the main start up activity.
+// Loads the Splash Screen for 2 seconds, launches the MainMenu Activity 
+
+package com.android.msu2u;
 
 import android.os.Bundle;
 import android.app.Activity;
 import android.content.Intent;
-import android.view.Menu;
-import android.view.MenuItem;
 
 
 public class MainActivity extends Activity {
@@ -18,9 +24,9 @@ public class MainActivity extends Activity {
 		
 		Thread splashTimer = new Thread(){
 			public void run(){
-					try{ // Show Splash Screen for 3 secs
+					try{ // Show Splash Screen for 2 secs
 						int splashTimer = 0;
-						while(splashTimer < 3000){
+						while(splashTimer < 2000){
 							sleep(100);
 							splashTimer+=100;
 						}
@@ -30,7 +36,6 @@ public class MainActivity extends Activity {
 						//TODO Auto-generated catch block
 						e.printStackTrace();
 					}
-					
 					finally{
 						finish(); // Will Finish this Class (MainActivity)
 					}
@@ -83,5 +88,4 @@ public class MainActivity extends Activity {
         return true;
     }
 */
-    
-}
+} // end MainActivity Class

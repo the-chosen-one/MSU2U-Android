@@ -1,10 +1,14 @@
+/***************************************************
+ **				MSU2U Copyright (c) 2012		  **	
+ **		Property of Midwerstern State University  **
+ **				Computer Science Dept. 			  **
+ ** ************************************************/ 
 
-
+// This class manages the Main Menu activity/screen 
 
 package com.android.msu2u;
 
 import com.actionbarsherlock.app.SherlockActivity;
-
 import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
@@ -36,7 +40,8 @@ public class MainMenu extends SherlockActivity implements OnItemClickListener{
 		for (int count = 0; count < menu_items.length; count++ ){
 			menu_Info[count] = menu_items[count].split(delimiter);
 		}
-							
+		
+		// Populate the array with items that will make uo the listview
 		ButtonList buttonList_data[] = new ButtonList[]{
 				new ButtonList(R.drawable.map,"Campus Map", "Find your way around campus"),
 				new ButtonList(R.drawable.contact,"Directory", "Contact Faculty and Staff"),
@@ -50,7 +55,9 @@ public class MainMenu extends SherlockActivity implements OnItemClickListener{
 		listView.setAdapter(adapter);
 	}
 
-
+	/**OVERRIDE: onItemClick
+	 * Any item clicked/touched on the main menu list with open an new activity
+	 */
 	@Override
 	public void onItemClick(AdapterView<?> parent, View v, int position, long id) {
 		RelativeLayout listItem = (RelativeLayout) v;
@@ -61,30 +68,34 @@ public class MainMenu extends SherlockActivity implements OnItemClickListener{
 	    
 	    
 	    try {
+	    	// Whem Campus map is CLicked 
 			if (clickedItemString.equals("Campus Map")){
 				Intent myIntent = new Intent(MainMenu.this, CampusMap.class);
 				myIntent.putExtra("button", clickedItemString);
 				startActivity(myIntent);
 				}
+			// When Directory is Clicked
 			else if (clickedItemString.equals("Directory")){
 				Intent myIntent = new Intent(MainMenu.this, Directory.class);
 				myIntent.putExtra("button", clickedItemString);
 				startActivity(myIntent);
 				}
+			// When Events is Clicked
 			else if (clickedItemString.equals("Events")){
 				Intent myIntent = new Intent(MainMenu.this, Events.class);
 				myIntent.putExtra("button", clickedItemString);
 				startActivity(myIntent);
 				}
+			// When Media is Clicked
 			else if (clickedItemString.equals("Media")){
 				Intent myIntent = new Intent(MainMenu.this, Media.class);
 				myIntent.putExtra("button", clickedItemString);
 				startActivity(myIntent);
 				}
-		} catch (Exception e) {
-			// TODO Auto-generated catch block
+		// if exception is catch: 1) Activity missing 2) New Activity not in Manifest
+		} catch (Exception e) { 
 			e.printStackTrace();
 			 Toast.makeText(getApplicationContext(),"Activity Miss Match",Toast.LENGTH_SHORT).show();
 		}
-	}
-}
+	} // end onItemClicked
+} // end MainMenu Class

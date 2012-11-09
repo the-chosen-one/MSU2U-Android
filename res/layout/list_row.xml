@@ -1,4 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
+
+<!-- Custom Row for List View -->
+
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="fill_parent"
     android:layout_height="wrap_content"
@@ -6,10 +9,8 @@
     android:orientation="horizontal"
     android:padding="5dip" >
  
-    <!--  ListRow Left sied Thumbnail image -->
  
     <!-- Title Of Button/List Item-->
-
     <ImageView
         android:id="@+id/list_image"
         android:layout_width="48dip"
@@ -29,7 +30,6 @@
         android:typeface="sans" />
  
     <!-- Sub Title --> 
-
      <TextView
          android:id="@+id/subtitle"
          android:layout_width="fill_parent"

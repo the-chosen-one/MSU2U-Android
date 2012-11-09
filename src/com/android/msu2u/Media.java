@@ -1,8 +1,14 @@
+/***************************************************
+ **				MSU2U Copyright (c) 2012		  **	
+ **		Property of Midwerstern State University  **
+ **				Computer Science Dept. 			  **
+ ** ************************************************/ 
+
+// This class manages the media activity/screen 
+
 package com.android.msu2u;
 
 import com.actionbarsherlock.app.SherlockActivity;
-
-import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.widget.TextView;
@@ -11,7 +17,7 @@ public class Media extends SherlockActivity {
 	@Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        this.setContentView(R.layout.activity_campusmap);
+        this.setContentView(R.layout.activity_media);
         
         TextView txtProduct = (TextView) findViewById(R.id.textView1);
         
@@ -20,5 +26,5 @@ public class Media extends SherlockActivity {
         String menu = i.getStringExtra("button");
         // displaying selected button name
         txtProduct.setText(menu);
-	}
-}
+	} // end OnCreate
+} // end Media Class
